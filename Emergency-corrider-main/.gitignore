@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+
+# Python
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+**/.pytest_cache/
+.venv/
+venv/
+ENV/
+
+# Environment & IDE
+.env
+.env.local
+.DS_Store
+.vscode/
+.idea/
+*.log
